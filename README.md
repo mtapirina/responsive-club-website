@@ -1,6 +1,7 @@
 # responsive-club-website
 Responsive Club Website - Codecademy Challenge Project
 
+https://mtapirina.github.io/responsive-club-website/
 This is my solution to the Codecademy Front End Challenge Project.
 
 Project Goals
