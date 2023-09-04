@@ -15,7 +15,6 @@ Possible responsive design concepts to demonstrate:​
 * 
 * ![aquatics-diving-club-site](https://github.com/mtapirina/responsive-club-website/assets/116927372/b92a31ad-782b-49d1-be89-7d1413e3200a)
  
-<img width="433" alt="cursos-PADI" src="https://github.com/mtapirina/responsive-club-website/assets/116927372/e6080f6e-d0c4-4603-adb5-2c2fe4bf5f6b">
 
 <img width="935" alt="1200px-screen" src="https://github.com/mtapirina/responsive-club-website/assets/116927372/4532ecce-0dd1-43ed-9e67-4b145ed3c6a8">
 <img width="747" alt="800px-screen" src="https://github.com/mtapirina/responsive-club-website/assets/116927372/7948ae72-7d7b-4588-9cc1-c686955babfe">
