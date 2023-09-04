@@ -1,0 +1,566 @@
+/*-------Typography--------*/
+h1, h2, h3{
+    color: #eb3333;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+}
+
+h1,.header h2{
+    background-color: #ffffff8a;
+    padding: 0.7em 0;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Lobster';
+    font-size: 300%; 
+}
+
+
+h2 {
+    font-size: 250%;
+}
+
+
+h3 {
+    font-size: 200%;
+    
+}
+
+h4 {
+    color: #eb9929;
+    font-size: 150%;
+    font-style: italic;
+}
+
+
+p, strong {
+    color: #26408c;
+    text-align: left;
+}
+
+p{
+    text-indent: 1.4rem;
+}
+/* text-shadow (sombra) */
+
+h1, h2, h3, h4,nav a, #cursos li, .box span {
+    text-shadow: .125rem .1rem .2rem #2c0202;
+}
+
+/*---- .text styles----*/
+span {
+    color: #981d2c;
+    font-family: "Roboto Mono", monospace;
+    font-size: larger;
+}
+
+.text {
+    width: 76%;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+
+/*----------NAVBAR  --------*/
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+nav li {
+    padding-right: 1rem;
+    list-style-type: none;
+}
+
+/*--text links --*/
+nav a {
+    color: #ffffff;
+}
+
+.subir a{ 
+    color: #263f8c;
+    
+}
+.subir a, nav a{
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+/*-----UNIVERSAL Styles----------*/
+
+
+body {
+    background-color:#b4d9d5;
+    font-size: 16px;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0;
+   
+}
+header{
+    background-color: #26408c;
+    border-bottom: 1px solid #e6f4f1;
+
+}
+footer{
+    background-color: #84b8d8;
+    border-top: 1px solid #e6f4f1;
+}
+header, footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    
+}
+
+
+.header {  
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+
+
+img{
+    width: 100%;
+    display: block;
+
+}
+/*----- icons-------*/
+.ico{
+    display: flex;
+   justify-content: center;
+   margin: 1rem auto;
+}
+.ico img {
+    width: 2rem;
+    padding:0  1rem;
+    border: none;
+}
+
+#equipo .ico img {
+    border: none;
+    padding-right: .5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+/*-----Logo-------*/
+
+.logo {
+    width: 8rem;
+ }
+ 
+ header .logo img{
+     border-radius: 50%;
+     width: 5rem;
+     
+ }
+ header .logo{
+     padding-left: 1.5rem;
+ }
+ 
+ .logo img {
+     border: 4px solid #83b7d8; 
+     background-color: #ffffff;
+ }
+
+footer .logo img {
+    width: 2rem;
+    margin: -1.5rem 0;
+}
+
+/*----- .gallery -----*/
+
+.gallery {
+    display: grid;
+    margin: 1rem auto;
+}
+#club .gallery{
+    grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
+}
+
+#equipo .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.gallery img {
+    max-height: 22rem;
+}
+
+/*----- .map ----*/
+.photo img {
+    max-width: 31.25rem;
+    margin: 1rem auto;
+}
+
+/*---cards--*/
+
+.cards {
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-auto-rows: 1fr;
+}
+
+
+/*-------  .box  -----------*/
+
+.box {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #263f8c;
+    border: 2px solid #699ebf;
+    border-radius: .5rem;
+    margin: 1rem auto;
+   
+}
+
+#cursos .box {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6rem 0;
+}
+
+
+#equipo .box, #las-salidas .box{
+    max-width: 300px;
+    padding: 1rem;
+    justify-self: stretch;
+}
+
+
+
+.box p {
+    text-align: center;
+    text-indent: 0;
+    color: #e6f4f1;
+}
+
+.box h4 {
+    margin: .5rem;
+}
+
+
+.box span {
+    color: #faba60;
+}
+
+.box ul {
+    background-color: #00183fc2;
+    padding: 2em;
+}
+
+.box li {
+
+    display: block;
+    color: #e6f4f1;
+    text-align: center;
+}
+/*------   MAIN - Section  -------*/
+.main{
+    margin: 0 auto;
+
+    width: 100%;
+}
+
+section {
+    
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section .header {
+    padding: 10rem 0;
+}
+
+/*-----  CLUB  Section  ------*/
+#club .header {
+    background-image: url("./resources/club.jpg");
+}
+
+
+/*----La ESCUELA Section & CURSOS -----*/
+
+#cursos .photo img{
+    max-width: 82%;
+}
+.dive-img-1 {
+    background-image: url("./resources/bg-1.jpg");
+}
+
+.dive-img-2 {
+    background-image: url("./resources/bg-2.jpg");
+}
+
+.dive-img-3 {
+    background-image: url("./resources/bg-3.jpg");
+    background-position: bottom;
+}
+
+.dive-img-4 {
+    background-image: url("./resources/bg-4.jpg");
+    background-position: left;
+}
+
+/*--- SOCIOS Section ---*/
+
+#socios .header {
+    background-image: url("./resources/cursos.jpg");
+}
+#socios .text{
+    margin: 0 auto;
+}
+
+
+#socios  p{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    text-indent: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+
+/*--EL EQUIPO TECNICO Section-----*/
+#equipo .header {
+    background-image: url("./resources/nosotros-1.jpg");
+}
+#equipo .id {
+    align-self: center;
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 50%;
+    border: 4px solid #e6f4f1;
+    margin-top: 1.5rem;
+}
+
+/*-----------FOOTER----------*/
+footer {
+    flex-direction: column;
+}
+footer a{
+    border: 4px solid #26408c; 
+    background-color: #26408c;
+    border-radius: 50%;
+    margin: 1rem auto;
+
+}
+
+/*---video---*/
+
+.video{
+    margin: 2rem auto;
+    overflow:hidden;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+  }
+  .video iframe {
+    position:absolute;
+    width:90%;
+    height:100%;
+    left:0;
+    top:0;
+  }
+/*****************************/
+/*----------@ MEDIA----------*/
+
+
+@media screen and (max-width: 1200px) {
+   
+    #cursos .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #las-salidas .cards {
+       width:80%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+  
+    #club .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #las-salidas .cards {
+        max-width: 90%;
+        gap:0;
+    }
+
+    #cursos .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    #club .gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #las-salidas .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #equipo .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    h1 {
+        font-size: 300%; 
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+    h3 {
+        font-size: 220%;
+        
+    }
+    
+    h4 {
+        font-size: 150%;
+    }
+
+    nav{
+        width: 70%;
+        padding-right: 3rem;
+    }
+  
+    nav a{
+        font-size:medium;
+    }
+    
+    #cursos .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #cursos .box {
+        padding: 3rem 0;
+    }
+
+    .box ul{
+        max-width: 100%;
+
+    }
+   
+    span{
+        font-size: medium;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+nav a{
+    line-height: 1.8rem;
+}
+
+#equipo .gallery {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#cursos .box {
+    max-height: 85%;
+    margin: 0 auto;
+}
+
+footer p{
+    font-size: smaller;
+}
+  
+}
+
+/*--------large screen-------*/
+
+@media screen and (min-width: 1200px) {
+
+    h1 {
+        font-size: 400%; 
+    }
+    
+    h2 {
+        font-size: 350%;
+    }
+    
+    h3 {
+        font-size: 300%;
+    }
+    
+    h4 {
+        font-size: 200%;
+    }
+    
+    nav{
+        width: 70%;
+        padding-right: 6rem;
+    }
+
+    p, span {
+        font-size: larger;
+    }
+
+    #las-salidas .cards {
+        max-width: 90%;
+        gap:2rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #cursos .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    #cursos .box {
+        padding: 1rem 0;
+    }
+
+    .box ul{
+        max-width: 100%;
+        margin: auto 10rem;
+        border: 4px solid #699ebf;
+        border-radius: 3rem;
+    }
+
+    .box  li{
+        padding-bottom: 1rem;
+    }
+
+    .box span{
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    
+}
