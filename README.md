@@ -1,10 +1,7 @@
-# responsive-club-website
-Responsive Club Website - Codecademy Challenge Project
+### responsive-club-website
+# Responsive Club Website - Codecademy Challenge Project
 
-https://mtapirina.github.io/responsive-club-website/
-This is my solution to the Codecademy Front End Challenge Project.
-
-Project Goals
+__Project Goals__
 
 In this project, I'll be building my own club group page that will dynamically respond as you adjust the size of your screen! ​
 
